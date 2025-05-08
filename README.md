@@ -50,6 +50,6 @@ The notebook involves the following key steps:
 
 ## 📬 Contact
 
-For questions or collaborations, feel free to reach out via GitHub.
+For questions or collaborations, feel free to reach out via:
 - 📧Email: buudiem284@gmail.com
 - 📞Phone/Zalo: (+84) 812698938
