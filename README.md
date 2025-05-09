@@ -81,6 +81,45 @@ python plot_mape_top10.py
 
 ---
 
+## ⚙️ Run on Google Colab
+
+You can run the full pipeline directly on [Google Colab](https://colab.research.google.com/):
+
+### 🔁 Steps:
+
+1. Upload the zipped project folder (e.g. `vn-stock-prediction.zip`)
+2. Unzip it:
+```python
+!unzip vn-stock-prediction.zip
+```
+
+3. Add module path:
+```python
+import sys
+sys.path.append("/content/vn-stock-prediction/src")
+```
+
+4. Then run the full pipeline:
+```python
+!python vn-stock-prediction/main_multi_model.py
+!python vn-stock-prediction/summary_results.py
+!python vn-stock-prediction/generate_report.py
+!python vn-stock-prediction/plot_mape_top10.py
+```
+
+5. Show report:
+```python
+from IPython.display import Image
+Image("vn-stock-prediction/reports/mape_top10.png")
+
+with open("vn-stock-prediction/report.md") as f:
+    print(f.read())
+```
+
+📦 Or use the provided notebook: `notebooks/pipeline_demo.ipynb`
+
+---
+
 ## 📬 Contact
 
 For questions or collaborations:
