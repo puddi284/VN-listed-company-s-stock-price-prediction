@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="thumbnail.png" alt="SQL E-Commerce Banner" width="100%">
+  <img src="thumbnail.png" alt="SQL E-Commerce Banner" width="60%">
 </p>
 
 # 📈 VN Listed Company's Stock Price Prediction
