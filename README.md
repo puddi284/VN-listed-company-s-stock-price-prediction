@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="thumbnail.png" alt="SQL E-Commerce Banner" width="100%">
+</p>
+
 # 📈 VN Listed Company's Stock Price Prediction
 
 This project predicts stock prices of Vietnamese listed companies using both machine learning (ML) and deep learning (DL) models.  
